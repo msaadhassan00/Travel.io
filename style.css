@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bgimg{
+    height: 39.05rem;
+    background-image: linear-gradient(rgb(2 0 0 / 50%), rgb(0 0 0 / 20%)),url(two.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg2{
+    height: 39.05rem;
+    
+    background: linear-gradient(to bottom, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    
+    background-attachment: fixed;
+}
+.bgimg3{
+    height: 39.05rem;
+    background-image: linear-gradient(rgb(2 0 0 / 50%), rgb(0 0 0 / 20%)), url("three.jpg");
+    background-attachment: fixed;  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font{
+    font-family: 'Allison', cursive;
+}
+.btm:hover{
+    border-bottom: 2px solid white;
+}
+.btnn:hover{
+    background-color: transparent;
+    color: black !important;
+    font-weight: bolder;
+}
+.bgc{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+}
+.form{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 70%;
+    margin-top: 5%;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+
+  @media screen and (max-width: 476px) {
+    .navbarr{
+        display: none;
+    }
+    .mtt{
+        margin-top: 15rem;
+    }
+    .full{
+        width: 400px;
+    }
+    .none{
+        display: none;
+    }
+  }
